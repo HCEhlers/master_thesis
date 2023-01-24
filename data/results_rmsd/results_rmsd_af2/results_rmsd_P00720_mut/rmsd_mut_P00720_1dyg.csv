@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1dyg_c7a70_unrelaxed_rank_1_model_5.pdb,0.06091217581227701,['V131E']
+P00720_1dyg_c7a70_unrelaxed_rank_2_model_4.pdb,0.22134206210358856,['V131E']
+P00720_1dyg_c7a70_unrelaxed_rank_3_model_2.pdb,0.3267894920531726,['V131E']
+P00720_1dyg_c7a70_unrelaxed_rank_4_model_3.pdb,0.8897812823906378,['V131E']
+P00720_1dyg_c7a70_unrelaxed_rank_5_model_1.pdb,0.5015485300222005,['V131E']

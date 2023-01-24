@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l00_msa_128_61b06.custom_unrelaxed_rank_1_model_2.pdb,0.4943945365320674,['Q105A']
+P00720_1l00_msa_128_61b06.custom_unrelaxed_rank_2_model_4.pdb,0.4457845192708965,['Q105A']
+P00720_1l00_msa_128_61b06.custom_unrelaxed_rank_3_model_5.pdb,0.5219674387786556,['Q105A']
+P00720_1l00_msa_128_61b06.custom_unrelaxed_rank_4_model_1.pdb,0.6419217858194044,['Q105A']
+P00720_1l00_msa_128_61b06.custom_unrelaxed_rank_5_model_3.pdb,1.0471827626410373,['Q105A']

@@ -1,0 +1,6 @@
+name,rmsd,mut
+P61626_1gbz_8966e_unrelaxed_rank_1_model_5.pdb,0.0509953480746713,['V110F']
+P61626_1gbz_8966e_unrelaxed_rank_2_model_3.pdb,0.1346202002271261,['V110F']
+P61626_1gbz_8966e_unrelaxed_rank_3_model_4.pdb,0.1349977005997557,['V110F']
+P61626_1gbz_8966e_unrelaxed_rank_4_model_2.pdb,0.1395509555239224,['V110F']
+P61626_1gbz_8966e_unrelaxed_rank_5_model_1.pdb,0.12563057115104825,['V110F']

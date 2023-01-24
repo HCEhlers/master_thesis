@@ -1,0 +1,7 @@
+name,rmsd,mut
+0_2rn2.pdb,0.09601104128459813,['D134H']
+P0A7Y4_1kvb_90ba3_unrelaxed_rank_1_model_2.pdb,0.13112750578682772,['D134H']
+P0A7Y4_1kvb_90ba3_unrelaxed_rank_2_model_1.pdb,0.09607979377892244,['D134H']
+P0A7Y4_1kvb_90ba3_unrelaxed_rank_3_model_3.pdb,0.09191091881016135,['D134H']
+P0A7Y4_1kvb_90ba3_unrelaxed_rank_4_model_5.pdb,0.1251961602186169,['D134H']
+P0A7Y4_1kvb_90ba3_unrelaxed_rank_5_model_4.pdb,0.16259205461205034,['D134H']

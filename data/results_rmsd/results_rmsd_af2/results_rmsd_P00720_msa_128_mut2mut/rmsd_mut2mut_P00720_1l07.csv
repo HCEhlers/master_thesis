@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l07_msa_128_87220.custom_unrelaxed_rank_1_model_5.pdb,0.596844427720894,['T157F']
+P00720_1l07_msa_128_87220.custom_unrelaxed_rank_2_model_4.pdb,0.5263071268177797,['T157F']
+P00720_1l07_msa_128_87220.custom_unrelaxed_rank_3_model_1.pdb,0.8089503437540048,['T157F']
+P00720_1l07_msa_128_87220.custom_unrelaxed_rank_4_model_2.pdb,0.5752422653223533,['T157F']
+P00720_1l07_msa_128_87220.custom_unrelaxed_rank_5_model_3.pdb,1.0988277113751987,['T157F']

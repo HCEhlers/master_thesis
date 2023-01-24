@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l37_msa_128_86905.custom_unrelaxed_rank_1_model_2.pdb,0.3913584459065425,['T115E']
+P00720_1l37_msa_128_86905.custom_unrelaxed_rank_2_model_5.pdb,0.47462295862270587,['T115E']
+P00720_1l37_msa_128_86905.custom_unrelaxed_rank_3_model_1.pdb,0.40487381143150447,['T115E']
+P00720_1l37_msa_128_86905.custom_unrelaxed_rank_4_model_4.pdb,0.4438183043636319,['T115E']
+P00720_1l37_msa_128_86905.custom_unrelaxed_rank_5_model_3.pdb,0.8937471951061771,['T115E']

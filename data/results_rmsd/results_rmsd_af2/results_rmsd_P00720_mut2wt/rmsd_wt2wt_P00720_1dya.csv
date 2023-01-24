@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1dya_b1204_unrelaxed_rank_1_model_4.pdb,0.5138333686906317,['V131D']
+P00720_1dya_b1204_unrelaxed_rank_2_model_5.pdb,0.5581250707487752,['V131D']
+P00720_1dya_b1204_unrelaxed_rank_3_model_3.pdb,1.0651470250796766,['V131D']
+P00720_1dya_b1204_unrelaxed_rank_4_model_2.pdb,0.44749554967584715,['V131D']
+P00720_1dya_b1204_unrelaxed_rank_5_model_1.pdb,0.6141903384100712,['V131D']

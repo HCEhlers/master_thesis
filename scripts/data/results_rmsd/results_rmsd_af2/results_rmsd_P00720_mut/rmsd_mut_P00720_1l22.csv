@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l22_a4332_unrelaxed_rank_1_model_5.pdb,0.06142876456651303,['K124G']
+P00720_1l22_a4332_unrelaxed_rank_2_model_4.pdb,0.23382666527175186,['K124G']
+P00720_1l22_a4332_unrelaxed_rank_3_model_2.pdb,0.33547653427231855,['K124G']
+P00720_1l22_a4332_unrelaxed_rank_4_model_3.pdb,1.0224923080425328,['K124G']
+P00720_1l22_a4332_unrelaxed_rank_5_model_1.pdb,0.6467425315416324,['K124G']

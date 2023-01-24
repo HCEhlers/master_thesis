@@ -1,0 +1,6 @@
+name,rmsd,mut
+P0A7Y4_1rbs_d5711_unrelaxed_rank_1_model_1.pdb,0.9752943515405951,['H62A']
+P0A7Y4_1rbs_d5711_unrelaxed_rank_2_model_2.pdb,0.5775219976045814,['H62A']
+P0A7Y4_1rbs_d5711_unrelaxed_rank_3_model_3.pdb,0.5888950192766624,['H62A']
+P0A7Y4_1rbs_d5711_unrelaxed_rank_4_model_4.pdb,0.3890477363915506,['H62A']
+P0A7Y4_1rbs_d5711_unrelaxed_rank_5_model_5.pdb,0.14268367438851867,['H62A']

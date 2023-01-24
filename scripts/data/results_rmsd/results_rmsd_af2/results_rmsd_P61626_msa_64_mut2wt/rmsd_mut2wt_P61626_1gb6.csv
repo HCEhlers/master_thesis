@@ -1,0 +1,6 @@
+name,rmsd,mut
+P61626_1gb6_msa_64_3db01.custom_unrelaxed_rank_1_model_5.pdb,0.4593525012548635,['V74I']
+P61626_1gb6_msa_64_3db01.custom_unrelaxed_rank_2_model_4.pdb,0.44600055322207294,['V74I']
+P61626_1gb6_msa_64_3db01.custom_unrelaxed_rank_3_model_3.pdb,0.4236141328041199,['V74I']
+P61626_1gb6_msa_64_3db01.custom_unrelaxed_rank_4_model_1.pdb,0.45212490796041893,['V74I']
+P61626_1gb6_msa_64_3db01.custom_unrelaxed_rank_5_model_2.pdb,0.4460958045631276,['V74I']

@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1dyb_f04ad_unrelaxed_rank_1_model_5.pdb,0.06650422121804837,['V131G']
+P00720_1dyb_f04ad_unrelaxed_rank_2_model_4.pdb,0.23218794373717183,['V131G']
+P00720_1dyb_f04ad_unrelaxed_rank_3_model_2.pdb,0.4304105219141656,['V131G']
+P00720_1dyb_f04ad_unrelaxed_rank_4_model_3.pdb,1.0263384302864411,['V131G']
+P00720_1dyb_f04ad_unrelaxed_rank_5_model_1.pdb,0.6993612552528788,['V131G']

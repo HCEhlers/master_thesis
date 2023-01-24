@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l32_msa_64_affda.custom_unrelaxed_rank_1_model_4.pdb,0.77525894071071,['P86S']
+P00720_1l32_msa_64_affda.custom_unrelaxed_rank_2_model_5.pdb,0.7876562169756518,['P86S']
+P00720_1l32_msa_64_affda.custom_unrelaxed_rank_3_model_2.pdb,0.9052845534715497,['P86S']
+P00720_1l32_msa_64_affda.custom_unrelaxed_rank_4_model_1.pdb,0.8710103877218653,['P86S']
+P00720_1l32_msa_64_affda.custom_unrelaxed_rank_5_model_3.pdb,1.003773141966173,['P86S']

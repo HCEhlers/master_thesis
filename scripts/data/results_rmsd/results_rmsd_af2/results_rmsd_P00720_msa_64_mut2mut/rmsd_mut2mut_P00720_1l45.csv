@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l45_msa_64_c2b96.custom_unrelaxed_rank_1_model_5.pdb,0.6819796261277724,['K135E']
+P00720_1l45_msa_64_c2b96.custom_unrelaxed_rank_2_model_4.pdb,0.7417627864751896,['K135E']
+P00720_1l45_msa_64_c2b96.custom_unrelaxed_rank_3_model_3.pdb,0.8787082226202394,['K135E']
+P00720_1l45_msa_64_c2b96.custom_unrelaxed_rank_4_model_2.pdb,1.0046523264691463,['K135E']
+P00720_1l45_msa_64_c2b96.custom_unrelaxed_rank_5_model_1.pdb,1.1241454625983431,['K135E']

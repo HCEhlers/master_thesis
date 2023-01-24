@@ -1,0 +1,6 @@
+name,rmsd,mut
+P61626_1gfr_msa_128_ce259.custom_unrelaxed_rank_1_model_5.pdb,0.48713074764620423,['V74R']
+P61626_1gfr_msa_128_ce259.custom_unrelaxed_rank_2_model_3.pdb,0.4620449613774141,['V74R']
+P61626_1gfr_msa_128_ce259.custom_unrelaxed_rank_3_model_4.pdb,0.4621241572097645,['V74R']
+P61626_1gfr_msa_128_ce259.custom_unrelaxed_rank_4_model_1.pdb,0.4648706172408104,['V74R']
+P61626_1gfr_msa_128_ce259.custom_unrelaxed_rank_5_model_2.pdb,0.47412855007349186,['V74R']

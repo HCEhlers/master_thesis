@@ -1,0 +1,6 @@
+name,rmsd,mut
+P61626_1wqo_msa_64_80e15.custom_unrelaxed_rank_1_model_5.pdb,0.5058669792993,['Y38F']
+P61626_1wqo_msa_64_80e15.custom_unrelaxed_rank_2_model_4.pdb,0.4885414335767066,['Y38F']
+P61626_1wqo_msa_64_80e15.custom_unrelaxed_rank_3_model_3.pdb,0.4894414656319271,['Y38F']
+P61626_1wqo_msa_64_80e15.custom_unrelaxed_rank_4_model_1.pdb,0.5030413510293642,['Y38F']
+P61626_1wqo_msa_64_80e15.custom_unrelaxed_rank_5_model_2.pdb,0.516528837533831,['Y38F']

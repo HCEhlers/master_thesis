@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l44_d7882_unrelaxed_rank_1_model_5.pdb,0.060598607336450686,['R119E']
+P00720_1l44_d7882_unrelaxed_rank_2_model_4.pdb,0.25997229687420403,['R119E']
+P00720_1l44_d7882_unrelaxed_rank_3_model_2.pdb,0.40218756653196824,['R119E']
+P00720_1l44_d7882_unrelaxed_rank_4_model_3.pdb,1.0359894745577687,['R119E']
+P00720_1l44_d7882_unrelaxed_rank_5_model_1.pdb,0.6095307896010529,['R119E']

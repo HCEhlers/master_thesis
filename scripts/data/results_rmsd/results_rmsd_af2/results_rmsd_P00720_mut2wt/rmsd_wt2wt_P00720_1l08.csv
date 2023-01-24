@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l08_10734_unrelaxed_rank_1_model_5.pdb,0.5647466754659736,['T157G']
+P00720_1l08_10734_unrelaxed_rank_2_model_4.pdb,0.49274099704782953,['T157G']
+P00720_1l08_10734_unrelaxed_rank_3_model_2.pdb,0.43639721243169327,['T157G']
+P00720_1l08_10734_unrelaxed_rank_4_model_3.pdb,0.7248409447840508,['T157G']
+P00720_1l08_10734_unrelaxed_rank_5_model_1.pdb,0.6968124386553368,['T157G']

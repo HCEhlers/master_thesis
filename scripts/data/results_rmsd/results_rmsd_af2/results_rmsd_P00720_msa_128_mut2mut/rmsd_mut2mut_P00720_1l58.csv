@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l58_msa_128_3d612.custom_unrelaxed_rank_1_model_4.pdb,0.516536281926985,['P143A']
+P00720_1l58_msa_128_3d612.custom_unrelaxed_rank_2_model_5.pdb,0.5487874958729883,['P143A']
+P00720_1l58_msa_128_3d612.custom_unrelaxed_rank_3_model_1.pdb,0.7443348563535352,['P143A']
+P00720_1l58_msa_128_3d612.custom_unrelaxed_rank_4_model_2.pdb,0.5759660515489703,['P143A']
+P00720_1l58_msa_128_3d612.custom_unrelaxed_rank_5_model_3.pdb,1.4883740902037952,['P143A']

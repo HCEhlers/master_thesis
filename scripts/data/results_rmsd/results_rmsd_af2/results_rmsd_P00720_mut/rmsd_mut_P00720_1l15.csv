@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l15_b22a4_unrelaxed_rank_1_model_5.pdb,0.09552167519693726,['T157V']
+P00720_1l15_b22a4_unrelaxed_rank_2_model_4.pdb,0.28913999822750824,['T157V']
+P00720_1l15_b22a4_unrelaxed_rank_3_model_2.pdb,0.4237785706790173,['T157V']
+P00720_1l15_b22a4_unrelaxed_rank_4_model_3.pdb,1.164493128824095,['T157V']
+P00720_1l15_b22a4_unrelaxed_rank_5_model_1.pdb,0.7533158869291621,['T157V']

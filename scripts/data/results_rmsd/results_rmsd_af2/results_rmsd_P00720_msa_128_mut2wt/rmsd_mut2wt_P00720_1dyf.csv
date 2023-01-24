@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1dyf_msa_128_0067a.custom_unrelaxed_rank_1_model_2.pdb,0.4602275968229327,['V131M']
+P00720_1dyf_msa_128_0067a.custom_unrelaxed_rank_2_model_4.pdb,0.43418528678752727,['V131M']
+P00720_1dyf_msa_128_0067a.custom_unrelaxed_rank_3_model_5.pdb,0.5165356004634442,['V131M']
+P00720_1dyf_msa_128_0067a.custom_unrelaxed_rank_4_model_1.pdb,0.7715066755757092,['V131M']
+P00720_1dyf_msa_128_0067a.custom_unrelaxed_rank_5_model_3.pdb,1.0240725685149783,['V131M']

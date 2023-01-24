@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l16_ade76_unrelaxed_rank_1_model_5.pdb,0.6718539395986127,['G156D']
+P00720_1l16_ade76_unrelaxed_rank_2_model_4.pdb,0.6411085176209086,['G156D']
+P00720_1l16_ade76_unrelaxed_rank_3_model_2.pdb,0.3921193481999279,['G156D']
+P00720_1l16_ade76_unrelaxed_rank_4_model_3.pdb,0.7542004005012043,['G156D']
+P00720_1l16_ade76_unrelaxed_rank_5_model_1.pdb,0.590908495710063,['G156D']

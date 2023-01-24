@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l52_48c8f_unrelaxed_rank_1_model_5.pdb,0.5389381464485484,['T152S']
+P00720_1l52_48c8f_unrelaxed_rank_2_model_4.pdb,0.4525555785665917,['T152S']
+P00720_1l52_48c8f_unrelaxed_rank_3_model_2.pdb,0.40483878204998586,['T152S']
+P00720_1l52_48c8f_unrelaxed_rank_4_model_3.pdb,0.8505080561428481,['T152S']
+P00720_1l52_48c8f_unrelaxed_rank_5_model_1.pdb,0.6244359986806526,['T152S']

@@ -1,0 +1,6 @@
+name,rmsd,mut
+P61626_1gfu_4730f_unrelaxed_rank_1_model_5.pdb,0.03930631151898707,['V110D']
+P61626_1gfu_4730f_unrelaxed_rank_2_model_3.pdb,0.1322457455223041,['V110D']
+P61626_1gfu_4730f_unrelaxed_rank_3_model_4.pdb,0.11735330787871832,['V110D']
+P61626_1gfu_4730f_unrelaxed_rank_4_model_2.pdb,0.1388685548237306,['V110D']
+P61626_1gfu_4730f_unrelaxed_rank_5_model_1.pdb,0.11115035762769226,['V110D']

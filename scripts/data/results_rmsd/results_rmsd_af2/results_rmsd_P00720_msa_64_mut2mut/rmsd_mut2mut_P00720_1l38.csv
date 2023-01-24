@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l38_msa_64_a471e.custom_unrelaxed_rank_1_model_5.pdb,0.6441551140167756,['Q123E']
+P00720_1l38_msa_64_a471e.custom_unrelaxed_rank_2_model_4.pdb,0.7068962370853387,['Q123E']
+P00720_1l38_msa_64_a471e.custom_unrelaxed_rank_3_model_2.pdb,0.8526659245235149,['Q123E']
+P00720_1l38_msa_64_a471e.custom_unrelaxed_rank_4_model_1.pdb,0.8063738713847158,['Q123E']
+P00720_1l38_msa_64_a471e.custom_unrelaxed_rank_5_model_3.pdb,0.8016281799414589,['Q123E']

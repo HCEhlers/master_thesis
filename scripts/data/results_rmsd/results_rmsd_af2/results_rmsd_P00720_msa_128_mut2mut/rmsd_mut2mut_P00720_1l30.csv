@@ -1,0 +1,6 @@
+name,rmsd,mut
+P00720_1l30_msa_128_ebc83.custom_unrelaxed_rank_1_model_5.pdb,0.6262971130183332,['P86L']
+P00720_1l30_msa_128_ebc83.custom_unrelaxed_rank_2_model_4.pdb,0.5741538273222262,['P86L']
+P00720_1l30_msa_128_ebc83.custom_unrelaxed_rank_3_model_3.pdb,1.1453830692215097,['P86L']
+P00720_1l30_msa_128_ebc83.custom_unrelaxed_rank_4_model_1.pdb,1.0611729206186586,['P86L']
+P00720_1l30_msa_128_ebc83.custom_unrelaxed_rank_5_model_2.pdb,0.8761789448454442,['P86L']

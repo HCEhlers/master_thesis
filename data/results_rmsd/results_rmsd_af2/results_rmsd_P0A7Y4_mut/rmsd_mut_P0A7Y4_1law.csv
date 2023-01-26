@@ -1,6 +1,6 @@
 name,rmsd,mut
-P0A7Y4_1law_ba939_unrelaxed_rank_1_model_3.pdb,0.0960110412845967,['V74I']
-P0A7Y4_1law_ba939_unrelaxed_rank_2_model_2.pdb,0.1311275057868252,['V74I']
-P0A7Y4_1law_ba939_unrelaxed_rank_3_model_1.pdb,0.09607979377892316,['V74I']
-P0A7Y4_1law_ba939_unrelaxed_rank_4_model_5.pdb,0.09191091881016114,['V74I']
-P0A7Y4_1law_ba939_unrelaxed_rank_5_model_4.pdb,0.12519616021861912,['V74I']
+P0A7Y4_1law_ba939_unrelaxed_rank_1_model_3.pdb,0.3597192720116382,['V74I']
+P0A7Y4_1law_ba939_unrelaxed_rank_2_model_2.pdb,0.3991731220344045,['V74I']
+P0A7Y4_1law_ba939_unrelaxed_rank_3_model_1.pdb,0.5021314440225745,['V74I']
+P0A7Y4_1law_ba939_unrelaxed_rank_4_model_5.pdb,0.6866296029379924,['V74I']
+P0A7Y4_1law_ba939_unrelaxed_rank_5_model_4.pdb,0.5593117956150692,['V74I']

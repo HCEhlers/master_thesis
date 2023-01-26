@@ -1,6 +1,6 @@
 name,rmsd,mut
-P0A7Y4_1gob_517f1_unrelaxed_rank_1_model_1.pdb,0.09601104128459866,['G77A']
-P0A7Y4_1gob_517f1_unrelaxed_rank_2_model_2.pdb,0.131127505786828,['G77A']
-P0A7Y4_1gob_517f1_unrelaxed_rank_3_model_3.pdb,0.0960797937789224,['G77A']
-P0A7Y4_1gob_517f1_unrelaxed_rank_4_model_5.pdb,0.09191091881016138,['G77A']
-P0A7Y4_1gob_517f1_unrelaxed_rank_5_model_4.pdb,0.12519616021861685,['G77A']
+P0A7Y4_1gob_517f1_unrelaxed_rank_1_model_1.pdb,0.3597192720116374,['G77A']
+P0A7Y4_1gob_517f1_unrelaxed_rank_2_model_2.pdb,0.3991731220344046,['G77A']
+P0A7Y4_1gob_517f1_unrelaxed_rank_3_model_3.pdb,0.502131444022574,['G77A']
+P0A7Y4_1gob_517f1_unrelaxed_rank_4_model_5.pdb,0.6866296029379922,['G77A']
+P0A7Y4_1gob_517f1_unrelaxed_rank_5_model_4.pdb,0.5593117956150692,['G77A']

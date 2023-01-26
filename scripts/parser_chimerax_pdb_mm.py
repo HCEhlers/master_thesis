@@ -5,6 +5,8 @@ import chimerax
 from chimerax.core.commands import run
 
 # Define consts
+cwd = os.getcwd()
+DATA_PATH_ROOT = cwd + '/master_thesis/'
 try:
     uniprot_id = 'P0A7Y4'
     pdb_id_ref = '2rn2'
@@ -16,7 +18,7 @@ except (IOError, FileNotFoundError) as err:
 
 for count, pdb in enumerate(af2_struc_list):
     # Define data path & change dir
-    DATA_PATH = '/Users/holger/Desktop/master_thesis/data/results_pdb/output_' + uniprot_id + '/pdbs/' + pdb + '.pdb'
+    DATA_PATH = DATA_PATH_ROOT + 'data/results_pdb/output_' + uniprot_id + '/pdbs/' + pdb + '.pdb'
     
     # Run ChimeraX part of script
     if count == 0:
@@ -31,12 +33,12 @@ for count, pdb in enumerate(af2_struc_list):
         rmsd = run(session, "mm #1/B to #{}/B".format(int(count+2)))
         rmsd_list.append([pdb,rmsd[0]['full RMSD']])
     except (chimerax.core.errors.UserError) as err:
-        with open('/Users/holger/Desktop/master_thesis/data/results_rmsd/results_rmsd_pdb/' + 'error.log', 'w') as f:
+        with open(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_pdb/' + 'error.log', 'w') as f:
             print("Can't calculate RMSD for {}:".format(pdb, str(err), file=f));
             f.close()
     # Save file
     df = pd.DataFrame(rmsd_list, columns=["name","rmsd"])
-    df.to_csv('/Users/holger/Desktop/master_thesis/data/results_rmsd/results_rmsd_pdb/results_rmsd_{}_mut/rmsd_mut_a_b_{}_{}.csv'.format(uniprot_id,uniprot_id, pdb), index=False)
+    df.to_csv(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_pdb/results_rmsd_{}_mut/rmsd_mut_a_b_{}_{}.csv'.format(uniprot_id,uniprot_id, pdb), index=False)
 
 # Close session
 #run(session, "close")

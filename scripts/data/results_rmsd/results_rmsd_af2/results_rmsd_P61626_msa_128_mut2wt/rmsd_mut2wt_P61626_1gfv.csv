@@ -1,6 +1,0 @@
-name,rmsd,mut
-P61626_1gfv_msa_128_135dd.custom_unrelaxed_rank_1_model_5.pdb,0.4549583393917509,['V110N']
-P61626_1gfv_msa_128_135dd.custom_unrelaxed_rank_2_model_3.pdb,0.4180085053992176,['V110N']
-P61626_1gfv_msa_128_135dd.custom_unrelaxed_rank_3_model_4.pdb,0.43375412766029015,['V110N']
-P61626_1gfv_msa_128_135dd.custom_unrelaxed_rank_4_model_1.pdb,0.45056726694523386,['V110N']
-P61626_1gfv_msa_128_135dd.custom_unrelaxed_rank_5_model_2.pdb,0.45309495245431086,['V110N']

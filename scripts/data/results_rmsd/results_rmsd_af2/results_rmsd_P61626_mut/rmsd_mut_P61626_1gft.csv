@@ -1,6 +1,0 @@
-name,rmsd,mut
-1gft__unrelaxed_rank_1_model_5.pdb,0.06137231002557568,['V110Y']
-test_e4fff_unrelaxed_rank_2_model_3.pdb,0.13649030375450297,['V110Y']
-test_e4fff_unrelaxed_rank_3_model_4.pdb,0.1355324598286841,['V110Y']
-test_e4fff_unrelaxed_rank_4_model_2.pdb,0.14509696848734138,['V110Y']
-test_e4fff_unrelaxed_rank_5_model_1.pdb,0.12502065912136853,['V110Y']

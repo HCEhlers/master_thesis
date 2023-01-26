@@ -14,6 +14,9 @@ except (IOError, FileNotFoundError) as err:
     print("Cant open file:", str(err));
     #sys.exit(1)
 
+cwd = os.getcwd()
+DATA_PATH_ROOT = cwd + '/master_thesis/'
+
 # Get mutation type
 def get_pdb_seq(pdb, url):
     
@@ -37,7 +40,7 @@ def get_pdb_seq(pdb, url):
 
 for af2_struc in range(len(af2_struc_list)):
     # Define data path & change dir
-    DATA_PATH = '/Users/holger/Desktop/master_thesis/data/results_af2/' + uniprot_id + '/' + uniprot_id + '_64/' + uniprot_id + '_' +  af2_struc_list[af2_struc] + '_msa_64.result'
+    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_64/' + uniprot_id + '_' +  af2_struc_list[af2_struc] + '_msa_64.result'
     os.chdir(DATA_PATH) 
     
     # Load data
@@ -72,7 +75,7 @@ for af2_struc in range(len(af2_struc_list)):
     print(rmsd_list)
     # Save file
     df = pd.DataFrame(rmsd_list, columns=["name", "rmsd", "mut"])
-    df.to_csv('/Users/holger/Desktop/master_thesis/data/results_rmsd/results_rmsd_af2/results_rmsd_P00720_msa_64_mut2wt/rmsd_mut2wt_{}_{}.csv'.format(uniprot_id, af2_struc_list[af2_struc]), index=False)
+    df.to_csv(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_af2/results_rmsd_P00720_msa_64_mut2wt/rmsd_mut2wt_{}_{}.csv'.format(uniprot_id, af2_struc_list[af2_struc]), index=False)
 
     # Close session
     #run(session, "close")

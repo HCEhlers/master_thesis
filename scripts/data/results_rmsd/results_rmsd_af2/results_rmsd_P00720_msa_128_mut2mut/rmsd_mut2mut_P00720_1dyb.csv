@@ -1,6 +1,0 @@
-name,rmsd,mut
-P00720_1dyb_msa_128_f04ad.custom_unrelaxed_rank_1_model_5.pdb,0.5714368989579403,['V131G']
-P00720_1dyb_msa_128_f04ad.custom_unrelaxed_rank_2_model_4.pdb,0.511688104920671,['V131G']
-P00720_1dyb_msa_128_f04ad.custom_unrelaxed_rank_3_model_1.pdb,0.8418338483212237,['V131G']
-P00720_1dyb_msa_128_f04ad.custom_unrelaxed_rank_4_model_2.pdb,0.5880823463272672,['V131G']
-P00720_1dyb_msa_128_f04ad.custom_unrelaxed_rank_5_model_3.pdb,1.5668380226702863,['V131G']

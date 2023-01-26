@@ -1,6 +1,0 @@
-name,rmsd,mut
-P00720_1l16_msa_128_ade76.custom_unrelaxed_rank_1_model_5.pdb,0.5345795798241031,['G156D']
-P00720_1l16_msa_128_ade76.custom_unrelaxed_rank_2_model_4.pdb,0.5003948649929522,['G156D']
-P00720_1l16_msa_128_ade76.custom_unrelaxed_rank_3_model_2.pdb,0.6087121250491025,['G156D']
-P00720_1l16_msa_128_ade76.custom_unrelaxed_rank_4_model_1.pdb,0.7962641511641568,['G156D']
-P00720_1l16_msa_128_ade76.custom_unrelaxed_rank_5_model_3.pdb,1.0933844181126093,['G156D']

@@ -6,9 +6,12 @@ from chimerax.core.commands import run
 import urllib.request
 
 # Define consts
+
+cwd = os.getcwd()
+DATA_PATH_ROOT = cwd + '/master_thesis/'
 try:
     uniprot_id = 'P00698'
-    esmfold_path = "/Users/holger/Desktop/master_thesis/data/results_esmfold/structures/P00698_rec1/"
+    esmfold_path = DATA_PATH_ROOT + "/data/results_esmfold/structures/P00698_rec1/"
     pdb_id_ref_list = ['1hem', '1heo', '1her']
     rmsd_all_list = list()
 except (IOError, FileNotFoundError) as err:
@@ -28,7 +31,7 @@ for model in range(0,len(pdb_id_ref_list)*2,2):
     rmsd_all_list.append(rmsd_list)
 
 for rmsd in range(len(rmsd_all_list)):
-    filepath = '/Users/holger/Desktop/master_thesis/data/results_rmsd/results_rmsd_esmfold/P00698/P00698_rec1_WT/rmsd_esmfold_to_mut_{}_{}.csv'.format(uniprot_id, pdb_id_ref_list[rmsd])
+    filepath = DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_esmfold/P00698/P00698_rec1_WT/rmsd_esmfold_to_mut_{}_{}.csv'.format(uniprot_id, pdb_id_ref_list[rmsd])
     df = pd.DataFrame(rmsd_all_list[rmsd], columns=["rmsd"])
     df.to_csv(filepath, index=False) 
     #russion, "close")

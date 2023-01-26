@@ -5,9 +5,12 @@ import chimerax
 from chimerax.core.commands import run
 
 # Define consts
+cwd = os.getcwd()
+DATA_PATH_ROOT = cwd + '/master_thesis/'
+
 try:
     uniprot_id = 'P61626'
-    pdb_id_ref = '/Users/holger/Desktop/master_thesis/data/results_af2/P61626/P61626_1lz1.result/P61626_1lz1_ca876_unrelaxed_rank_1_model_5.pdb'
+    pdb_id_ref = DATA_PATH_ROOT + 'data/results_af2/P61626/P61626_default/P61626_1lz1.result/P61626_1lz1_ca876_unrelaxed_rank_1_model_5.pdb'
     af2_struc_list =  ['2nwd',
  '5lsh',
  '1jsf',
@@ -46,7 +49,7 @@ except (IOError, FileNotFoundError) as err:
 
 for af2_struc in range(len(af2_struc_list)):
     # Define data path & change dir
-    DATA_PATH = '/Users/holger/Desktop/master_thesis/data/results_af2/' + uniprot_id + '/' + uniprot_id + '_' + af2_struc_list[af2_struc] + '.result'
+    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_default/' + uniprot_id + '_' + af2_struc_list[af2_struc] + '.result'
     os.chdir(DATA_PATH) 
     
     # Load data
@@ -70,7 +73,7 @@ for af2_struc in range(len(af2_struc_list)):
                 f.close()
     # Save file
     df = pd.DataFrame(rmsd_list, columns=["name", "rmsd"])
-    df.to_csv('/Users/holger/Desktop/master_thesis/data/results_rmsd/results_rmsd_af2/results_rmsd_P61626_wt/rmsd_wt_{}_{}.csv'.format(uniprot_id, af2_struc_list[af2_struc]), index=False)
+    df.to_csv(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_af2/results_rmsd_P61626_wt/rmsd_wt_{}_{}.csv'.format(uniprot_id, af2_struc_list[af2_struc]), index=False)
 
     # Close session
     run(session, "close")

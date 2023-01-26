@@ -71,7 +71,6 @@ for af2_struc in range(1,len(af2_struc_list)):
         offset = 5
     elif af2_struc > 2:
         offset += 5
-        print('here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
     for i in range(2,len(models)+2):
         try:
             rmsd = run(session, "mm #{}/A to #{}/A".format(int(af2_struc+offset),int(af2_struc-1+offset+i)))

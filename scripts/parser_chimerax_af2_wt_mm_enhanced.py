@@ -7,9 +7,9 @@ import urllib.request
 
 # Define consts
 try:
-    uniprot_id = 'P00720'
-    af2_struc_list =  ['1dya', '1dyb', '1dyc', '1dyd', '1dye', '1dyf', '1dyg', '1l00','1l02', '1l03', '1l05', '1l06', '1l07', '1l08', '1l09', '1l10','1l11', '1l12', '1l13', '1l14', '1l15', '1l16', '1l19', '1l20','1l21', '1l22', '1l23', '1l24', '1l25', '1l26', '1l27', '1l28','1l29', '1l30', '1l31', '1l32', '1l33', '1l34', '1l37', '1l38','1l44', '1l45', '1l46', '1l47', '1l48', '1l52', '1l53', '1l56','1l57', '1l58', '1l60', '1l69', '1l98', '1l99']
-    pdb_id_ref = ['2lzm' for i in range(len(af2_struc_list))]
+    uniprot_id = 'P0A7Y4'
+    af2_struc_list = ['1kvb' for i in range(10)]
+    pdb_id_ref = ['1kvb' for i in range(len(af2_struc_list))]
 except (IOError, FileNotFoundError) as err:
     print("Cant open file:", str(err));
     #sys.exit(1)
@@ -21,7 +21,7 @@ DATA_PATH_ROOT = cwd + '/master_thesis/'
 def get_pdb_seq(pdb, url):
     
     criteria = ['pdb_sequence']
-    wt_seq = 'MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYKNL'
+    wt_seq = 'MLKQVEIFTDGSCLGNPGPGGYGAILRYRGREKTFSAGYTRTTNNRMELMAAIVALEALKEHCEVILSTDSQYVRQGITQWIHNWKKRGWKTADKKPVKNVDLWQRLDAALGQHQIKWEWVKGHAGHPENERCDELARAAAMNPTLEDTGYQVEV'
     df = pd.read_json(url)
     mutation_list = list()
     
@@ -40,7 +40,7 @@ def get_pdb_seq(pdb, url):
 
 for af2_struc in range(len(af2_struc_list)):
     # Define data path & change dir
-    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_64/' + uniprot_id + '_' +  af2_struc_list[af2_struc] + '_msa_64.result'
+    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_1kvb_32/' + uniprot_id + '_1kvb_32_' + str(af2_struc+1) + '.result'
     os.chdir(DATA_PATH) 
     
     # Load data
@@ -72,10 +72,10 @@ for af2_struc in range(len(af2_struc_list)):
             with open('error.log', 'a') as f:
                 print("Can't calculate RMSD for {}:".format(i, models[i]), str(err), file=f);
                 f.close()
-    print(rmsd_list)
+    
     # Save file
     df = pd.DataFrame(rmsd_list, columns=["name", "rmsd", "mut"])
-    df.to_csv(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_af2/results_rmsd_P00720_msa_64_mut2wt/rmsd_mut2wt_{}_{}.csv'.format(uniprot_id, af2_struc_list[af2_struc]), index=False)
+    df.to_csv(DATA_PATH_ROOT + 'data/results_rmsd/results_rmsd_af2/results_rmsd_1kvb_32_mut/rmsd_1kvb2mut_{}_{}.csv'.format(uniprot_id, str(af2_struc+1)), index=False)
 
     # Close session
     #run(session, "close")

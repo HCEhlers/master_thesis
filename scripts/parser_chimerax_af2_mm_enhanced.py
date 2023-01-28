@@ -10,7 +10,7 @@ cwd = os.getcwd()
 DATA_PATH_ROOT = cwd + '/master_thesis/'
 try:
     uniprot_id = 'P0A7Y4'
-    pdb_id_ref = DATA_PATH_ROOT + "data/results_af2/P0A7Y4/P0A7Y4_2rn2.result/P0A7Y4_2rn2_98129_unrelaxed_rank_1_model_2.pdb"
+    pdb_id_ref = DATA_PATH_ROOT + "data/results_af2/P0A7Y4/P0A7Y4_default/P0A7Y4_2rn2.result/P0A7Y4_2rn2_98129_unrelaxed_rank_1_model_2.pdb"
     af2_struc_list = ['1gob', '1kva', '1kvb', '1lav', '1law', '1rbr', '1rbs', '1rbt',
        '1rbu', '1rbv', '1rda', '1rdb']
 except (IOError, FileNotFoundError) as err:
@@ -40,7 +40,7 @@ def get_pdb_seq(pdb, url):
 
 for af2_struc in range(len(af2_struc_list)):
     # Define data path & change dir
-    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_' + af2_struc_list[af2_struc] + '.result'
+    DATA_PATH = DATA_PATH_ROOT + 'data/results_af2/' + uniprot_id + '/' + uniprot_id + '_default' + '/' + uniprot_id + '_' + af2_struc_list[af2_struc] + '.result'
     os.chdir(DATA_PATH) 
     
     # Load data

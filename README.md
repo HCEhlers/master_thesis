@@ -1,4 +1,4 @@
-# Exploring AlphaFold2’s capability to distinguish structural different variants’ conformation
+# Exploring AlphaFold2’s Capability to Distinguish Structural Different Variants’ Conformation
 This repository contains the code and data used in the master thesis.
 
 ### Abstract
